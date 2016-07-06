@@ -7,7 +7,8 @@ A simple node.js script for AWS Lambda to handle SNS notifications.
 2. Paste code in beanstalk-slack-notification.js into code area.
 3. Create new role or use existing role for basic execution.
 4. Test the Lambda function:
-```{
+```
+{
   "Records": [
     {
       "EventSource": "aws:sns",
