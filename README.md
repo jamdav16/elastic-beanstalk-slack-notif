@@ -3,10 +3,10 @@
 A simple node.js script for AWS Lambda to handle SNS notifications.
 
 ## Installation
-1. Create a new function in Lambda.
-2. Paste code in beanstalk-slack-notification.js into code area.
-3. Create new role or use existing role for basic execution.
-4. Test the Lambda function:
+* Create a new function in Lambda.
+* Paste code in beanstalk-slack-notification.js into code area.
+* Create new role or use existing role for basic execution.
+* Test the Lambda function:
 ```
 {
   "Records": [
@@ -31,5 +31,5 @@ A simple node.js script for AWS Lambda to handle SNS notifications.
   ]
 }
 ```
-5. Hook SNS to Lambda function by subscribing to a topic. Set the protocol to Lambda, endpoint to your function and click 'Create subscription'.
-6. Test it out!
+* Hook SNS to Lambda function by subscribing to a topic. Set the protocol to Lambda, endpoint to your function and click 'Create subscription'.
+* Test it out!
